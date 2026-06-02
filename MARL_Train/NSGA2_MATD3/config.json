@@ -1,0 +1,30 @@
+{
+  "env_config": {
+    "tf": 15.0,
+    "tstep": 0.03333333333333333,
+    "max_steps": 28,
+    "include_prony": true,
+    "prony_coordination": true,
+    "shared_observations": true,
+    "algorithm_type": "NSGA2_MATD3"
+  },
+  "algo_config": {
+    "buffer_size": 50000,
+    "batch_size": 256,
+    "actor_lr": 5e-05,
+    "critic_lr": 0.0003,
+    "gamma": 0.99,
+    "tau": 0.01,
+    "noise_std": 0.05,
+    "noise_clip": 0.5,
+    "policy_noise": 0.1,
+    "policy_freq": 2,
+    "nsga2_population_size": 10,
+    "nsga2_crossover_rate": 0.8,
+    "nsga2_mutation_rate": 0.05,
+    "nsga2_mutation_std": 0.05,
+    "weight_update_freq": 10,
+    "crash_penalty": -10.0,
+    "device": "cuda"
+  }
+}
