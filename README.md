@@ -60,16 +60,18 @@ pip install torch gymnasium andes pandas numpy matplotlib scipy
 ```
 ## Usage
 ### Repository Structure
+```bash
 ├── andes_marl.py                # Custom multi‑agent environment (MultiAgentAndes39)
 ├── MARL_train.py                # Main training script (all algorithms)
 ├── MARL_test.py                 # Testing and visualisation script
 ├── ieee39_4area_REGF.xlsx       # ANDES case file
 ├── train/                       # Created during training (saves models, logs)
 └── test/                        # Created during testing (results, plots)
+```
 ### Train All Algorithms
-python MARL_train.py
+ --python MARL_train.py
 ### Test Trained Models
-python MARL_test.py
+ --python MARL_test.py
 
 ## License
 No license. All rights reserved. The code is provided for viewing purposes only and may not be reused without permission. The authors reserve all rights to the intellectual property contained herein.
