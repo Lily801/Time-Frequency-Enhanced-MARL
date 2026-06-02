@@ -1,0 +1,19 @@
+{
+  "total_episodes": 10,
+  "algorithms": [
+    "MAPPO",
+    "MASAC",
+    "MATD3",
+    "NSGA2_MATD3",
+    "WSE_MATD3"
+  ],
+  "test_date": "2026-05-02 22:17:25",
+  "env_config": {
+    "tf": 15.0,
+    "tstep": 0.03333333333333333,
+    "max_steps": 28,
+    "include_prony": true,
+    "shared_observations": true,
+    "prony_coordination": true
+  }
+}

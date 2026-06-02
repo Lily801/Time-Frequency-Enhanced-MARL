@@ -1,0 +1,90 @@
+{
+  "algorithm": "NSGA2_MATD3",
+  "episode": 0,
+  "generator_metrics": {},
+  "vsg_metrics": {},
+  "performance_metrics": {
+    "overall_max_freq_dev": 1.0853737642834596,
+    "overall_avg_freq_dev": 0.09699361475773313,
+    "worst_recovery_time": 15.0,
+    "avg_recovery_time": 1.5,
+    "overall_max_volt_dev": 0.0695668318154905,
+    "overall_avg_volt_dev": 0.03405196977178268,
+    "worst_volt_recovery_time": 0.0,
+    "avg_volt_recovery_time": 0.0
+  },
+  "freq_deviation_data": {
+    "gen_0": {
+      "max_freq_dev": 0.0005074584749844568,
+      "recovery_time": 0.0,
+      "mean_freq_dev": 0.00014364679211661938
+    },
+    "gen_1": {
+      "max_freq_dev": 0.0008929474637414669,
+      "recovery_time": 0.0,
+      "mean_freq_dev": 0.0001430764770089836
+    },
+    "gen_2": {
+      "max_freq_dev": 0.0006994397940822683,
+      "recovery_time": 0.0,
+      "mean_freq_dev": 0.00017883148943698016
+    },
+    "gen_3": {
+      "max_freq_dev": 0.0012238092894782948,
+      "recovery_time": 0.0,
+      "mean_freq_dev": 0.0002089006909710249
+    },
+    "gen_4": {
+      "max_freq_dev": 0.0005732812051337799,
+      "recovery_time": 0.0,
+      "mean_freq_dev": 0.00016187723780693766
+    },
+    "gen_5": {
+      "max_freq_dev": 0.0007131626936879298,
+      "recovery_time": 0.0,
+      "mean_freq_dev": 0.00012542105505181314
+    },
+    "gen_6": {
+      "max_freq_dev": 0.0008805492936662107,
+      "recovery_time": 0.0,
+      "mean_freq_dev": 0.00011473302493001045
+    },
+    "gen_7": {
+      "max_freq_dev": 0.00046684858290402254,
+      "recovery_time": 0.0,
+      "mean_freq_dev": 0.00011859906771953512
+    },
+    "gen_8": {
+      "max_freq_dev": 0.0005246703416941223,
+      "recovery_time": 0.0,
+      "mean_freq_dev": 0.00015361674066032813
+    },
+    "vsg": {
+      "max_freq_dev": 1.0853737642834596,
+      "recovery_time": 15.0,
+      "mean_freq_dev": 0.9685874450016292
+    }
+  },
+  "volt_deviation_data": {
+    "bus_38": {
+      "max_volt_dev": 0.03011225874025447,
+      "recovery_time": 0.0,
+      "mean_volt_dev": 0.02125241936942651
+    },
+    "bus_31": {
+      "max_volt_dev": 0.05482923249478211,
+      "recovery_time": 0.0,
+      "mean_volt_dev": 0.04137782084694962
+    },
+    "bus_37": {
+      "max_volt_dev": 0.0695668318154905,
+      "recovery_time": 0.0,
+      "mean_volt_dev": 0.05983812031444742
+    },
+    "bus_32": {
+      "max_volt_dev": 0.02660044967247177,
+      "recovery_time": 0.0,
+      "mean_volt_dev": 0.013739518556307184
+    }
+  }
+}

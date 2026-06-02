@@ -1,0 +1,37 @@
+{
+  "episode": 0,
+  "algorithms_tested": [
+    "MAPPO",
+    "MASAC",
+    "MATD3",
+    "NSGA2_MATD3",
+    "WSE_MATD3"
+  ],
+  "results": {
+    "MAPPO": {
+      "total_reward": -877.5002036813152,
+      "total_steps": 28,
+      "success": true
+    },
+    "MASAC": {
+      "total_reward": -24.40551686738098,
+      "total_steps": 28,
+      "success": true
+    },
+    "MATD3": {
+      "total_reward": -46.2545011462508,
+      "total_steps": 28,
+      "success": true
+    },
+    "NSGA2_MATD3": {
+      "total_reward": -36.26121189645157,
+      "total_steps": 28,
+      "success": true
+    },
+    "WSE_MATD3": {
+      "total_reward": -29.120431395895878,
+      "total_steps": 28,
+      "success": true
+    }
+  }
+}

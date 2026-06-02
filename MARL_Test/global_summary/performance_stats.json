@@ -1,0 +1,27 @@
+{
+  "MAPPO": {
+    "avg_total_reward": -798.2652952880493,
+    "std_total_reward": 252.37301294737642,
+    "success_rate": 90.0
+  },
+  "MASAC": {
+    "avg_total_reward": -31.29694852161457,
+    "std_total_reward": 17.198349948603624,
+    "success_rate": 90.0
+  },
+  "MATD3": {
+    "avg_total_reward": -47.75977342604038,
+    "std_total_reward": 11.418012955344699,
+    "success_rate": 90.0
+  },
+  "NSGA2_MATD3": {
+    "avg_total_reward": -45.87483114397059,
+    "std_total_reward": 18.406339060166857,
+    "success_rate": 80.0
+  },
+  "WSE_MATD3": {
+    "avg_total_reward": -34.025234496939945,
+    "std_total_reward": 16.156751405449302,
+    "success_rate": 90.0
+  }
+}

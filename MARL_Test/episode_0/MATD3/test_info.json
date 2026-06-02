@@ -1,0 +1,9 @@
+{
+  "algorithm": "MATD3",
+  "episode": 0,
+  "seed": 42,
+  "disturbance_type": "load_step",
+  "disturbance_location": "PQuid_0",
+  "disturbance_severity": 0.32246514992794995,
+  "disturbance_duration": 13.0
+}
