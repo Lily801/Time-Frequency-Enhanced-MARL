@@ -1,0 +1,21 @@
+{
+  "env_config": {
+    "tf": 15.0,
+    "tstep": 0.03333333333333333,
+    "max_steps": 28,
+    "include_prony": true,
+    "prony_coordination": true,
+    "shared_observations": false,
+    "algorithm_type": "MASAC"
+  },
+  "algo_config": {
+    "buffer_size": 50000,
+    "batch_size": 64,
+    "actor_lr": 0.0003,
+    "critic_lr": 0.003,
+    "alpha_lr": 0.0003,
+    "gamma": 0.99,
+    "tau": 0.01,
+    "device": "cuda"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "env_config": {
+    "tf": 15.0,
+    "tstep": 0.03333333333333333,
+    "max_steps": 28,
+    "include_prony": true,
+    "prony_coordination": true,
+    "shared_observations": true,
+    "algorithm_type": "MAPPO"
+  },
+  "algo_config": {
+    "actor_lr": 0.0003,
+    "critic_lr": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_epsilon": 0.1,
+    "ppo_epochs": 5,
+    "batch_size": 32,
+    "entropy_coef": 0.01,
+    "value_coef": 0.5,
+    "device": "cuda"
+  }
+}
